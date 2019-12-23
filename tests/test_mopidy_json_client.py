@@ -1,3 +1,27 @@
+"""
+ Results :
+
+  [CONNECTION] Connecting to Mopidy Server at ws://localhost:6680/mopidy/ws
+  [CONNECTION] Mopidy Server is connected at ws://localhost:6680/mopidy/ws
+
+ Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/mopidy_json_client/client.py", line 188, in _server_request
+    server_result = request.wait_for_result()
+  File "/home/pi/.local/lib/python3.7/site-packages/mopidy_json_client/messages.py", line 65, in wait_for_result
+    raise RequestTimeoutError(self.method, self.timeout)
+mopidy_json_client.messages.RequestTimeoutError
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/mopidy_json_client/client.py", line 188, in _server_request
+    server_result = request.wait_for_result()
+  File "/home/pi/.local/lib/python3.7/site-packages/mopidy_json_client/messages.py", line 65, in wait_for_result
+    raise RequestTimeoutError(self.method, self.timeout)
+mopidy_json_client.messages.RequestTimeoutError
+
+Though it did add the 2 tracks and started playing the tracklist...
+
+"""
+
 import time
 from mopidy_json_client import MopidyClient
 from mopidy_json_client.formatting import print_nice
