@@ -11,11 +11,10 @@ import busio
 import time
 from digitalio import DigitalInOut
 import binascii
-from mopidy_client import play_new_track
+from mopidy_client import play_new_track, stop_track
 from tracks_model import get_track_uri
 
 import adafruit_ssd1306
-
 from adafruit_pn532.spi import PN532_SPI
 
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
@@ -53,6 +52,9 @@ display.poweroff()
 # Configure PN532 to communicate with MiFare cards
 pn532.SAM_configuration()
 
+current_tag = None
+count_loops_without_tag = 0
+COUNT_LOOPS_WITHOUT_TAG_TO_STOP = 4
 print('Waiting for RFID/NFC card...')
 while True:
     # Check if a card is available to read
@@ -60,10 +62,17 @@ while True:
 
     if uid is not None:
         tag = binascii.hexlify(uid).decode('ascii')
-        track_uri = get_track_uri(tag)
-        play_new_track(track_uri)
+        print('Found card with tag:', tag)
+        if tag != current_tag:
+            current_tag = tag
+            track_uri = get_track_uri(tag)
+            if track_uri is not None:
+                play_new_track(track_uri)
 
     # Try again if no card is available.
     if uid is None:
-        continue
-    print('Found card with UID:', uid)
+        count_loops_without_tag += 1
+        if (count_loops_without_tag >= COUNT_LOOPS_WITHOUT_TAG_TO_STOP):
+            count_loops_without_tag = 0
+            current_tag = None
+            stop_track()
