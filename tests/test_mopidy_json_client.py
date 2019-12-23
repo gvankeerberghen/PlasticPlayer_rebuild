@@ -5,7 +5,7 @@ from mopidy_json_client.formatting import print_nice
 def print_track_info(tl_track):
     track = tl_track.get('track') if tl_track else None
     if not track:
-        print 'No Track'
+        print('No Track')
         return
 
     trackinfo = {
