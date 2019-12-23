@@ -11,8 +11,8 @@ import busio
 import time
 from digitalio import DigitalInOut
 import binascii
-from code.mopidy_client import play_new_track
-from code.tracks_model import get_track_uri
+from mopidy_client import play_new_track
+from tracks_model import get_track_uri
 
 import adafruit_ssd1306
 
@@ -61,7 +61,7 @@ while True:
     if uid is not None:
         tag = binascii.hexlify(uid).decode('ascii')
         track_uri = get_track_uri(tag)
-        play_new_track
+        play_new_track(track_uri)
 
     # Try again if no card is available.
     if uid is None:

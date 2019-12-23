@@ -1,12 +1,12 @@
 import json
 JSON_DB = 'tracks.json'
 
-with open('filename.txt', 'r') as f:
-    tracks_db = json.load(JSON_DB)['tracks']
+with open('./code/tracks.json', 'r') as f:
+  tracks_db = json.load(f)['tracks']
 
-def getTrackUri(tag):
+def get_track_uri(tag):
   for track in tracks_db:
-    if track.tag == tag:
-      return track.uri
+    if track['tag'] == tag:
+      return track['uri']
   else:
       return None
