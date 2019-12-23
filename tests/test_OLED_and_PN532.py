@@ -12,24 +12,24 @@ import adafruit_ssd1306
 
 from adafruit_pn532.spi import PN532_SPI
 
-# PN532 SPI connection:
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
+
+# PN532 SPI connection:
 pn_cs_pin = DigitalInOut(board.D5)
 pn532 = PN532_SPI(spi, pn_cs_pin, debug=False)
 
 # OLED ssd 1306 SPI connection:
-WIDTH = 128
-HEIGHT = 32
 ssd1306_cs_pin = DigitalInOut(board.D24)
 ssd1306_dc_pin = DigitalInOut(board.D25)
 ssd1306_reset_pin = DigitalInOut(board.D23)
+WIDTH = 128
+HEIGHT = 32
 
-oled = adafruit_ssd1306.SSD1306_SPI(WIDTH, HEIGHT, spi, ssd1306_dc_pin, ssd1306_reset_pin, ssd1306_cs_pin)
+display = adafruit_ssd1306.SSD1306_SPI(WIDTH, HEIGHT, spi, ssd1306_dc_pin, ssd1306_reset_pin, ssd1306_cs_pin)
 
 """
  OLED painting
 """
-display = oled
 print("Lines test")
 # we'll draw from corner to corner, lets define all the pair coordinates here
 corners = ((0, 0), (0, display.height-1), (display.width-1, 0),
