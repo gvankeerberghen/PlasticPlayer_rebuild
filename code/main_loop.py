@@ -62,8 +62,8 @@ while True:
 
     if uid is not None:
         tag = binascii.hexlify(uid).decode('ascii')
-        print('Found card with tag:', tag)
         if tag != current_tag:
+            print('Found card with tag:', tag)
             current_tag = tag
             track_uri = get_track_uri(tag)
             if track_uri is not None:
