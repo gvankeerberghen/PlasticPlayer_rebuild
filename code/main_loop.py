@@ -6,8 +6,8 @@ import busio
 import time
 from digitalio import DigitalInOut
 import binascii
-from mopidy_client import play_new_track, stop_track
-from tracks_model import get_track_uri
+from mopidy_client import play_new_tracks, stop_track
+from tracks_model import get_track_uris
 
 import adafruit_ssd1306
 from adafruit_pn532.spi import PN532_SPI
