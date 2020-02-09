@@ -28,7 +28,7 @@ count_loops_without_tag = 0
 COUNT_LOOPS_WITHOUT_TAG_TO_STOP = 4
 print('Waiting for RFID/NFC card...')
 while True:
-    try
+    try:
         # Check if a card is available to read
         uid = pn532.read_passive_target(timeout=0.5)
 
