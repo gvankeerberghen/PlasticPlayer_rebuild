@@ -2,11 +2,11 @@
   "tracks": [
     {
       "tag": "9c48dbf1",
-      "uri": "local:track:01%20Home%20Recording.m4a"
+      "uri": "local:track:Billie%20Eilish%20-%20bury%20a%20friend.mp3"
     },
     {
       "tag": "abb9240d",
-      "uri": "local:track:Zonder%20totetrekkerie.mp3"
+      "uri": "local:track:IAM%20-%20L%20empire%20du%20cote%20obscur.mp3"
     },
     {
       "tag": "83393f1b",
@@ -19,6 +19,30 @@
     {
       "tag": "8b62730e",
       "uri": "local:track:Trois%20Cafes%20Gourmands%20-%20A%20nos%20souvenirs%20%5BClip%20officiel%5D.mp3"
+    },
+    {
+      "tag": "73bf411b",
+      "uri": "m3u:boby_lapointe.m3u8"
+    },
+    {
+      "tag": "82ff421f",
+      "uri": "local:track:Ali%20Farka%20Toure-Allah%20Uya.mp3"
+    },
+    {
+      "tag": "9316c220",
+      "uri": "local:track:Georges%20Brassens%20-%20Le%20Gorille.mp3"
+    },
+    {
+      "tag": "01d92020",
+      "uri": "local:track:The%20Do%20I%20A%20Take%20Away%20Show.mp3"
+    },
+    {
+      "tag": "1299381e",
+      "uri": "local:track:Mozart%20Symphony%20n40%20in%20G%20Minor,%20K%20550%20-%20Molto%20Allegro.mp3"
+    },
+    {
+      "tag": "02749f1e",
+      "uri": "local:track:Agnes%20Obel%20Deezer%20Session.mp3"
     }
   ]
 }
