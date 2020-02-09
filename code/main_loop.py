@@ -37,9 +37,9 @@ while True:
             if tag != current_tag:
                 print('Found card with tag:', tag)
                 current_tag = tag
-                track_uri = get_track_uri(tag)
-                if track_uri is not None:
-                    play_new_track(track_uri)
+                track_uris = get_track_uris(tag)
+                if track_uris is not None:
+                    play_new_tracks(track_uris)
 
         # Try again if no card is available.
         if uid is None:

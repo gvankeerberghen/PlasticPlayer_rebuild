@@ -6,12 +6,12 @@ logger = logging.getLogger('mopidy_client')
 RPC_URL = 'http://localhost:6680/mopidy/rpc'
 TIMEOUT = 3
 
-def play_new_track(track_uri):
+def play_new_tracks(track_uris):
   msg_id = 0
   try:
     requests.post(RPC_URL, json={"jsonrpc": "2.0", "id": 1, "method": "core.tracklist.clear"}, timeout=TIMEOUT)
     msg_id += 1
-    requests.post(RPC_URL, json={"jsonrpc": "2.0", "id": 1, "method": "core.tracklist.add", "params": {"uris": [track_uri]}}, timeout=TIMEOUT)
+    requests.post(RPC_URL, json={"jsonrpc": "2.0", "id": 1, "method": "core.tracklist.add", "params": {"uris": track_uris}}, timeout=TIMEOUT)
     msg_id += 1
     requests.post(RPC_URL, json={"jsonrpc": "2.0", "id": 1, "method": "core.playback.play"}, timeout=TIMEOUT)
     msg_id += 1
