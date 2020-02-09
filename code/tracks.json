@@ -2,7 +2,10 @@
   "tracks": [
     {
       "tag": "9c48dbf1",
-      "uris": ["local:track:Billie%20Eilish%20-%20bury%20a%20friend.mp3"]
+      "uris": [
+        "local:track:Billie%20Eilish%20-%20bury%20a%20friend.mp3",
+        "local:track:Billie%20Eilish%20-%20Bellyache.mp3"
+      ]
     },
     {
       "tag": "abb9240d",
