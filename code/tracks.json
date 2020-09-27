@@ -53,6 +53,93 @@
     {
       "tag": "04f94b827b6380",
       "uris": ["local:track:Pink%20Floyd%20-%2006%20Money.m4a"]
+    },
+    {
+      "tag": "04fa4b827b6380",
+      "uris": ["local:track:Black%20M%20-%20Je%20suis%20chez%20moi.mp3"]
+    },
+    {
+      "tag": "04174b827b6381",
+      "uris": [
+        "local:track:Satie%20-%20Ciccolini%20-%2007%20Gnossiennes%201.m4a",
+        "local:track:Satie%20-%20Ciccolini%20-%2008%20Gnossiennes%202.m4a",
+        "local:track:Satie%20-%20Ciccolini%20-%2009%20Gnossiennes%203.m4a",
+        "local:track:Satie%20-%20Ciccolini%20-%2010%20Gnossiennes%204.m4a",
+        "local:track:Satie%20-%20Ciccolini%20-%2011%20Gnossiennes%205.m4a",
+        "local:track:Satie%20-%20Ciccolini%20-%2012%20Gnossiennes%206.m4a"
+      ]
+    },
+    {
+      "tag": "04d94b827b6380",
+      "uris": [
+        "local:track:Beatles%20-%2001%20Help.m4a"
+      ]
+    },
+    {
+      "tag": "043a4b827b6381",
+      "uris": [
+        "local:track:Beatles%20-%20Maxwell%20s%20Silver%20Hammer.m4a"
+      ]
+    },
+    {
+      "tag": "523b6f1a",
+      "uris": [
+        "local:track:Beatles%20-%20Ob-La-Di%20Ob-La-Da.m4a"
+      ]
+    },
+    {
+      "tag": "b157e91c",
+      "uris": [
+        "local:track:Serge%20Gainsbourg%20-%20Le%20poinconneur%20des%20Lilas.mp3"
+      ]
+    },
+    {
+      "tag": "b1c2fa1c",
+      "uris": [
+        "local:track:Nicolas%20Jaar%20-%2003%20El%20Bandido.m4a"
+      ]
+    },
+    {
+      "tag": "52a2991a",
+      "uris": [
+        "local:track:Led%20Zeppelin%20-%20Since%20I%20ve%20Been%20Loving%20You.m4a"
+      ]
+    },
+    {
+      "tag": "b145151c",
+      "uris":[
+        "local:track:Led%20Zeppeling%20-%2002%20Immigrant%20Song.m4a"
+      ]
+    },
+    {
+      "tag": "b12dda1c",
+      "uris": [
+        "local:track:Nicolas%20Jaar%20-%20Mi%20Mujer.mp3"
+      ]
+    },
+    {
+      "tag": "e1ce561e",
+      "uris": [
+        "local:track:Injury%20Reserve%20-%20ttktv.mp3"
+      ]
+    },
+    {
+      "tag": "b14e481c",
+      "uris": [
+        "local:track:Cerrone%20-%20Supernature.mp3"
+      ]
+    },
+    {
+      "tag": "f118e61e",
+      "uris": [
+        "local:track:Dire%20Stratis%20-%20Sultans%20Of%20Swing.mp3"
+      ]
+    },
+    {
+      "tag": "b1cb921c",
+      "uris": [
+        "local:track:Angelina%20-%20Maman%20me%20dit.mp3"
+      ]
     }
   ]
 }
