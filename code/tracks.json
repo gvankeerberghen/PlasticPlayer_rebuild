@@ -183,6 +183,42 @@
       "uris": [
         "local:track:France%20Gall%20-%20Laisse%20tomber%20les%20filles.mp3"
       ]
+    },
+    {
+      "tag": "0447456a186580",
+      "uris": [
+        "local:track:The%20Clash%20-%20The%20Magnificent%20Seven.mp3"
+      ]
+    },
+    {
+      "tag": "0448466a186580",
+      "uris": [
+        "local:track:Vivaldi%20The%20Four%20Seasons%2C%20Summer%20-%203%2C%20Presto.mp3"
+      ]
+    },
+    {
+      "tag": "0465456a186580",
+      "uris": [
+        "local:track:The%20Chordettes%20-%20Mr%20Sandman.mp3"
+      ]
+    },
+    {
+      "tag": "0448456a186580",
+      "uris": [
+        "local:track:Serge%20Gainsbourg%20-%20Initials%20BB.mp3"
+      ]
+    },
+    {
+      "tag": "0483456a186580",
+      "uris": [
+        "local:track:Serge%20Gainsbourg%20-%20La%20chanson%20de%20Pre%CC%81vert%20%281962%29.mp3"
+      ]
+    },
+    {
+      "tag": "04a2466a186580",
+      "uris": [
+        "local:track:Grace%20Jones%20-%20I%20ve%20Seen%20That%20Face%20Before%20%2812%20Version%29.mp3"
+      ]
     }
   ]
 }
