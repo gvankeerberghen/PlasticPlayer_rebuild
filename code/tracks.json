@@ -219,6 +219,18 @@
       "uris": [
         "local:track:Grace%20Jones%20-%20I%20ve%20Seen%20That%20Face%20Before%20%2812%20Version%29.mp3"
       ]
+    },
+    {
+      "tag": "0467466a186580",
+      "uris": [
+        "local:track:Wejdene%20-%20Anissa.mp3"
+      ]
+    },
+    {
+      "tag": "047e446a186580",
+      "uris": [
+        "local:track:Wejdene%20-%20Coco.mp3"
+      ]
     }
   ]
 }
