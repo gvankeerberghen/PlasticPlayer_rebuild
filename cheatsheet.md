@@ -6,6 +6,11 @@ sudo apt-get install gstreamer1.0-plugins-bad
 ```
 
 # Putting local files
+Tar a folder
+```sh
+tar -cvf songs_gain.tar ./songs_gain
+```
+
 From local
 ```sh
 scp <source> <user>@<dest>/home/<user>/

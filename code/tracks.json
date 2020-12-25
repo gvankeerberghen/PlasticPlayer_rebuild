@@ -21,7 +21,9 @@
     },
     {
       "tag": "8b62730e",
-      "uris": ["local:track:Trois%20Cafes%20Gourmands%20-%20A%20nos%20souvenirs%20%5BClip%20officiel%5D.mp3"]
+      "uris": [
+        "local:track:Trois%20Cafes%20Gourmands%20-%20A%20nos%20souvenirs%20%5BClip%20officiel%5D.mp3"
+      ]
     },
     {
       "tag": "73bf411b",
@@ -44,7 +46,9 @@
     },
     {
       "tag": "1299381e",
-      "uris": ["local:track:Mozart%20Symphony%20n40%20in%20G%20Minor%2C%20K%20550%20-%20Molto%20Allegro.mp3"]
+      "uris": [
+        "local:track:Mozart%20Symphony%20n40%20in%20G%20Minor%2C%20K%20550%20-%20Molto%20Allegro.mp3"
+      ]
     },
     {
       "tag": "02749f1e",
@@ -90,15 +94,11 @@
     },
     {
       "tag": "043a4b827b6381",
-      "uris": [
-        "local:track:Beatles%20-%20Maxwell%20s%20Silver%20Hammer.m4a"
-      ]
+      "uris": ["local:track:Beatles%20-%20Maxwell%20s%20Silver%20Hammer.m4a"]
     },
     {
       "tag": "523b6f1a",
-      "uris": [
-        "local:track:Beatles%20-%20Ob-La-Di%20Ob-La-Da.m4a"
-      ]
+      "uris": ["local:track:Beatles%20-%20Ob-La-Di%20Ob-La-Da.m4a"]
     },
     {
       "tag": "b157e91c",
@@ -108,9 +108,7 @@
     },
     {
       "tag": "b1c2fa1c",
-      "uris": [
-        "local:track:Nicolas%20Jaar%20-%2003%20El%20Bandido.m4a"
-      ]
+      "uris": ["local:track:Nicolas%20Jaar%20-%2003%20El%20Bandido.m4a"]
     },
     {
       "tag": "52a2991a",
@@ -120,63 +118,43 @@
     },
     {
       "tag": "b145151c",
-      "uris":[
-        "local:track:Led%20Zeppeling%20-%2002%20Immigrant%20Song.m4a"
-      ]
+      "uris": ["local:track:Led%20Zeppeling%20-%2002%20Immigrant%20Song.m4a"]
     },
     {
       "tag": "b12dda1c",
-      "uris": [
-        "local:track:Nicolas%20Jaar%20-%20Mi%20Mujer.mp3"
-      ]
+      "uris": ["local:track:Nicolas%20Jaar%20-%20Mi%20Mujer.mp3"]
     },
     {
       "tag": "e1ce561e",
-      "uris": [
-        "local:track:Injury%20Reserve%20-%20ttktv.mp3"
-      ]
+      "uris": ["local:track:Injury%20Reserve%20-%20ttktv.mp3"]
     },
     {
       "tag": "b14e481c",
-      "uris": [
-        "local:track:Cerrone%20-%20Supernature.mp3"
-      ]
+      "uris": ["local:track:Cerrone%20-%20Supernature.mp3"]
     },
     {
       "tag": "f118e61e",
-      "uris": [
-        "local:track:Dire%20Stratis%20-%20Sultans%20Of%20Swing.mp3"
-      ]
+      "uris": ["local:track:Dire%20Stratis%20-%20Sultans%20Of%20Swing.mp3"]
     },
     {
       "tag": "b1cb921c",
-      "uris": [
-        "local:track:Angelina%20-%20Maman%20me%20dit.mp3"
-      ]
+      "uris": ["local:track:Angelina%20-%20Maman%20me%20dit.mp3"]
     },
     {
       "tag": "041b456a186581",
-      "uris": [
-        "local:track:Zyad%206%20ans%20-%20Corona%20poison.mp3"
-      ]
+      "uris": ["local:track:Zyad%206%20ans%20-%20Corona%20poison.mp3"]
     },
     {
       "tag": "04fd456a186580",
-      "uris": [
-        "local:track:Iggy%20Pop%20-%20The%20Passenger.mp3"
-      ]
+      "uris": ["local:track:Iggy%20Pop%20-%20The%20Passenger.mp3"]
     },
     {
       "tag": "04c2456a186580",
-      "uris": [
-        "local:track:Madredeus%20-%20O%20Pastor.mp3"
-      ]
+      "uris": ["local:track:Madredeus%20-%20O%20Pastor.mp3"]
     },
     {
       "tag": "04e0456a186580",
-      "uris": [
-        "local:track:Henri%20Des%20-%20Le%20petit%20zinzin.mp3"
-      ]
+      "uris": ["local:track:Henri%20Des%20-%20Le%20petit%20zinzin.mp3"]
     },
     {
       "tag": "04df456a186580",
@@ -186,9 +164,7 @@
     },
     {
       "tag": "0447456a186580",
-      "uris": [
-        "local:track:The%20Clash%20-%20The%20Magnificent%20Seven.mp3"
-      ]
+      "uris": ["local:track:The%20Clash%20-%20The%20Magnificent%20Seven.mp3"]
     },
     {
       "tag": "0448466a186580",
@@ -198,15 +174,11 @@
     },
     {
       "tag": "0465456a186580",
-      "uris": [
-        "local:track:The%20Chordettes%20-%20Mr%20Sandman.mp3"
-      ]
+      "uris": ["local:track:The%20Chordettes%20-%20Mr%20Sandman.mp3"]
     },
     {
       "tag": "0448456a186580",
-      "uris": [
-        "local:track:Serge%20Gainsbourg%20-%20Initials%20BB.mp3"
-      ]
+      "uris": ["local:track:Serge%20Gainsbourg%20-%20Initials%20BB.mp3"]
     },
     {
       "tag": "0483456a186580",
@@ -222,15 +194,134 @@
     },
     {
       "tag": "0467466a186580",
-      "uris": [
-        "local:track:Wejdene%20-%20Anissa.mp3"
-      ]
+      "uris": ["local:track:Wejdene%20-%20Anissa.mp3"]
     },
     {
       "tag": "047e446a186580",
+      "uris": ["local:track:Wejdene%20-%20Coco.mp3"]
+    },
+
+    {
+      "tag": "04a3456a186580",
+      "uris": ["local:track:Pink%20Floyd%20-%2001%20Hey%20You.m4a"]
+    },
+    {
+      "tag": "04c1456a186580",
       "uris": [
-        "local:track:Wejdene%20-%20Coco.mp3"
+        "local:track:The%20White%20Stripes%20-%20Seven%20Nation%20Army.mp3"
       ]
+    },
+    {
+      "tag": "0484456a186580",
+      "uris": [
+        "local:track:Nick%20Cave%20&%20The%20Bad%20Seeds%20-%20Red%20Right%20Hand.mp3"
+      ]
+    },
+    {
+      "tag": "04a2456a186580",
+      "uris": ["local:track:ROSALiA%20-%20MALAMENTE.mp3"]
+    },
+    {
+      "tag": "0466456a186580",
+      "uris": ["local:track:Moloko%20-%20The%20Time%20Is%20Now.mp3"]
+    },
+    {
+      "tag": "0461446a186580",
+      "uris": [
+        "local:track:Led%20Zeppelin%20-%2004%20Dazed%20And%20Confused.MP3"
+      ]
+    },
+    {
+      "tag": "049c446a186580",
+      "uris": ["local:track:Jack%20Johnson%20-%2001%20Better%20Together.m4a"]
+    },
+    {
+      "tag": "047f446a186580",
+      "uris": ["local:track:Elliott%20Smith%20-%2009%20Angeles.mp3"]
+    },
+    {
+      "tag": "04ba446a186580",
+      "uris": [
+        "local:track:Anouar%20Brahem%20-%2003%20Leila%20Au%20Pays%20Du%20Carrousel.m4a"
+      ]
+    },
+    {
+      "tag": "0484466a186580",
+      "uris": ["local:track:Metronomy%20-%2007%20The%20Bay.mp3"]
+    },
+    {
+      "tag": "0449466a186580",
+      "uris": [
+        "local:track:Vivaldi%20-%20Nisi%20Dominus%20Cum%20Dederit%20Andreas%20Scholl.mp3"
+      ]
+    },
+    {
+      "tag": "0466466a186580",
+      "uris": [
+        "local:track:Prokofiev%20Romeo%20and%20Juliet%20No%2013%20Dance%20of%20the%20Knights%20(Valery%20Gergiev).mp3"
+      ]
+    },
+    {
+      "tag": "04fe456a186580",
+      "uris": [
+        "local:track:Mendelssohn%20Violin%20Concerto%20in%20E%20minor.mp3"
+      ]
+    },
+    {
+      "tag": "0439456a186581",
+      "uris": [
+        "local:track:Massive%20Attack%20-%2006%20Unfinished%20Sympathy.mp3"
+      ]
+    },
+    {
+      "tag": "041c456a186581",
+      "uris": [
+        "local:track:Les%20Rita%20Mitsouko%20-%20Marcia%20Bai%CC%88la.mp3"
+      ]
+    },
+    {
+      "tag": "0458456a186581",
+      "uris": ["local:track:Jacques%20Brel%20-%2008%20Au%20suivant.m4a"]
+    },
+    {
+      "tag": "043a456a186581",
+      "uris": ["local:track:Jacques%20Brel%20-%2001%20Amsterdam.mp3"]
+    },
+    {
+      "tag": "0470446a186581",
+      "uris": ["local:track:David%20Bowie%20-%20Ashes%20To%20Ashes.mp3"]
+    },
+    {
+      "tag": "0459456a186581",
+      "uris": [
+        "local:track:The%20Doors%20-%2001%20Alabama%20Song%20(Whiskey%20Bar).mp3"
+      ]
+    },
+    {
+      "tag": "0452446a186581",
+      "uris": ["local:track:Little%20Simz%20-%20Venom.mp3"]
+    },
+    {
+      "tag": "046f446a186581",
+      "uris": ["local:track:Dr%20DRE%20Snoop%20Dog%20-%2004%20Still%20DRE.m4a"]
+    },
+    {
+      "tag": "0434446a186581",
+      "uris": [
+        "local:track:Grandmaster%20Flash%20&%20The%20Furious%20Five%20-%20The%20Message.mp3"
+      ]
+    },
+    {
+      "tag": "04c2466a186580",
+      "uris": ["local:track:Daft%20Punk%20-%20Make%20Love.mp3"]
+    },
+    {
+      "tag": "0485466a186580",
+      "uris": ["local:track:Gringe%20-%20Qui%20dit%20mieux.mp3"]
+    },
+    {
+      "tag": "04c1466a186580",
+      "uris": ["local:track:Angelina%20-%20Qui%20dit%20mieux.mp3"]
     }
   ]
 }
