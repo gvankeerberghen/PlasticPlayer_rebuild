@@ -5,6 +5,42 @@ Following error WARNING  Failed local:track:01%20Home%20Recording.m4a: No audio 
 sudo apt-get install gstreamer1.0-plugins-bad
 ```
 
+# Connecting to the RPI from my MaBook
+Well... you definitely need to Authorize Internet Sharing through AX... Gigabit Ethernet adaptor.
+
+Then it's a bit a luck my friend. Today it worked quickly and the RPI was on 192.168.2.2
+I had first connected the ethernet cable to everything. The adaptor was showing only a red LED.
+Then I put turned the RPi's power on.
+
+In my ifConfig I have a
+```
+bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=3<RXCSUM,TXCSUM>
+	ether ae:bc:32:9a:7f:64
+	inet 192.168.2.1 netmask 0xffffff00 broadcast 192.168.2.255
+```
+
+but surprisingly the following command:
+```sh
+nmap -sn 192.168.2.0/24
+```
+does not list any host on 192.168.2.2 !?
+
+Using
+```sh
+netstat -rn -finet
+```
+I also do see the RPI on `192.168.2.2`:
+```
+Destination        Gateway            Flags        Netif Expire
+default            192.168.0.1        UGSc           en0
+...
+192.168.0.255      ff:ff:ff:ff:ff:ff  UHLWbI         en0      !
+192.168.2          link#16            UC         bridge1      !
+192.168.2.1        ae.bc.32.9a.7f.64  UHLWIi         lo0
+192.168.2.2        b8.27.eb.6e.23.f6  UHLWIi     bridge1    858
+```
+
 # Putting local files
 Tar a folder
 ```sh
