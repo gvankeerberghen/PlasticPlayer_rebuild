@@ -8,11 +8,13 @@ sudo apt-get install gstreamer1.0-plugins-bad
 # Connecting to the RPI from my MaBook
 Well... you definitely need to Authorize Internet Sharing through AX... Gigabit Ethernet adaptor.
 
-Then it's a bit a luck my friend. Today it worked quickly and the RPI was on 192.168.2.2
-I had first connected the ethernet cable to everything. The adaptor was showing only a red LED.
-Then I put turned the RPi's power on.
+Then it's a bit of luck my friend.
 
-In my ifConfig I have a
+Today it worked quickly and I was lucky to find the RPI on 192.168.2.2 by ssh-ing to it.
+I had first connected the ethernet cable to everything. The USB ethernet adaptor was showing only a red LED.
+Then I turned the RPi's power on. The adaptor started having green and blue light as well.
+
+In my ifconfig I do have a
 ```
 bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=3<RXCSUM,TXCSUM>
@@ -20,7 +22,7 @@ bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	inet 192.168.2.1 netmask 0xffffff00 broadcast 192.168.2.255
 ```
 
-but surprisingly the following command:
+but surprisingly nmap would not have helped:
 ```sh
 nmap -sn 192.168.2.0/24
 ```
@@ -30,7 +32,7 @@ Using
 ```sh
 netstat -rn -finet
 ```
-I also do see the RPI on `192.168.2.2`:
+I do see the RPI on `192.168.2.2`:
 ```
 Destination        Gateway            Flags        Netif Expire
 default            192.168.0.1        UGSc           en0
