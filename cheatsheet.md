@@ -43,6 +43,15 @@ default            192.168.0.1        UGSc           en0
 192.168.2.2        b8.27.eb.6e.23.f6  UHLWIi     bridge1    858
 ```
 
+# Not having to give password for ssh and scp anymore
+```sh
+# From MacBook, supposing I already have a key
+ssh-copy-id pi@192.168.2.2
+
+# If ssh key still needed to be generated
+ssh-keygen
+```
+
 # Putting local files
 Tar a folder
 ```sh
@@ -51,7 +60,12 @@ tar -cvf songs_gain.tar ./songs_gain
 
 From local
 ```sh
-scp <source> <user>@<dest>/home/<user>/
+scp <source> <user>@<dest>:/home/<user>/
+```
+
+Untar folder
+```
+tar -xvf ./songs_gain.tar
 ```
 
 On instance, from home
@@ -74,6 +88,12 @@ Check local library content
 sudo cp /var/lib/mopidy/local/library.json.gz .
 sudo gunzip library.json.gz
 cat library.json
+```
+
+# Loop
+Check if up
+```
+sudo systemctl status plastic_player_loop.service
 ```
 
 # HTTP json rpc
@@ -127,3 +147,16 @@ curl -d '{"jsonrpc": "2.0", "id": 1, "method": "core.mixer.get_volume"}' \
 curl -d '{"jsonrpc": "2.0", "id": 1, "method": "core.tracklist.get_tl_tracks"}' \
   -H 'Content-Type: application/json' http://localhost:6680/mopidy/rpc
 ```
+
+# Change rpi volume
+Set to 90%
+```sh
+sudo amixer cset numid=1 90%
+```
+
+Get
+```sh
+sudo amixer cget numid=1
+```
+
+[Source](http://raspberrypi-aa.github.io/session3/audio.html)
