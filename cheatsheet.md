@@ -83,13 +83,6 @@ Check if service is up
 sudo systemctl status mopidy
 ```
 
-Check local library content
-```sh
-sudo cp /var/lib/mopidy/local/library.json.gz .
-sudo gunzip library.json.gz
-cat library.json
-```
-
 # Loop
 Check if up
 ```
