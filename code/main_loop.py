@@ -7,7 +7,7 @@ import time
 from digitalio import DigitalInOut
 import binascii
 from mopidy_client import play_new_tracks, stop_track
-from tracks_model import get_track_uris
+from tracks_model import get_track_uris, get_all_track_uris
 
 import adafruit_ssd1306
 from adafruit_pn532.spi import PN532_SPI
@@ -15,6 +15,8 @@ from adafruit_pn532.spi import PN532_SPI
 logging.info('Starting up')
 
 spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
+
+SHUFFLE_ALL_TAG = "04a3466a186580"
 
 # PN532 SPI connection:
 pn_cs_pin = DigitalInOut(board.D5)
@@ -40,6 +42,9 @@ while True:
                 track_uris = get_track_uris(tag)
                 if track_uris is not None:
                     play_new_tracks(track_uris)
+                elif tag == SHUFFLE_ALL_TAG:
+                    track_uris = get_all_track_uris()
+                    play_new_tracks(track_uris, True)
 
         # Try again if no card is available.
         if uid is None:
