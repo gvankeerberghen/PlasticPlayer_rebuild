@@ -3,13 +3,13 @@
     {
       "tag": "9c48dbf1",
       "uris": [
-        "local:track:Billie%20Eilish%20-%20bury%20a%20friend.mp3",
-        "local:track:Billie%20Eilish%20-%20Bellyache.mp3"
+        "local:track:Billie%20Eilish%20-%20bury%20a%20friend.m4a",
+        "local:track:Billie%20Eilish%20-%20bellyache.m4a"
       ]
     },
     {
       "tag": "abb9240d",
-      "uris": ["local:track:IAM%20-%20L%20empire%20du%20cote%20obscur.mp3"]
+      "uris": ["local:track:IAM%20-%20L%20empire%20du%20cote%20obscur.m4a"]
     },
     {
       "tag": "83393f1b",
@@ -28,17 +28,17 @@
     {
       "tag": "73bf411b",
       "uris": [
-        "local:track:Boby%20Lapointe%20-%20Aragon%20et%20Castille.mp3",
-        "local:track:Boby%20Lapointe%20-%20Ta%20Katie%20t%20as%20quitte.mp3"
+        "local:track:Boby%20Lapointe%20-%20Aragon%20et%20Castille.m4a",
+        "local:track:Boby%20Lapointe%20-%20Ta%20Katie%20t%20a%20quitte.m4a"
       ]
     },
     {
       "tag": "82ff421f",
-      "uris": ["local:track:Ali%20Farka%20Toure-Allah%20Uya.mp3"]
+      "uris": ["local:track:Ali%20Farka%20Toure%20-%20Allah%20Uya.m4a"]
     },
     {
       "tag": "9316c220",
-      "uris": ["local:track:Georges%20Brassens%20-%20Le%20Gorille.mp3"]
+      "uris": ["local:track:Georges%20Brassens%20-%20Le%20gorille.m4a"]
     },
     {
       "tag": "01d92020",
@@ -47,7 +47,7 @@
     {
       "tag": "1299381e",
       "uris": [
-        "local:track:Mozart%20Symphony%20n40%20in%20G%20Minor%2C%20K%20550%20-%20Molto%20Allegro.mp3"
+        "local:track:Berliner%20Philharmoniker%20-%20Mozart-%20Symphony%20No.%2040%20in%20G%20Minor%2C%20K.%20550%20-%20I.%20Molto%20allegro.m4a"
       ]
     },
     {
@@ -103,7 +103,7 @@
     {
       "tag": "b157e91c",
       "uris": [
-        "local:track:Serge%20Gainsbourg%20-%20Le%20poinconneur%20des%20Lilas.mp3"
+        "local:track:Serge%20Gainsbourg%20-%20Le%20poinconneur%20des%20Lilas.m4a"
       ]
     },
     {
@@ -122,19 +122,19 @@
     },
     {
       "tag": "b12dda1c",
-      "uris": ["local:track:Nicolas%20Jaar%20-%20Mi%20Mujer.mp3"]
+      "uris": ["local:track:Nicolas%20Jaar%20-%20Mi%20Mujer.m4a"]
     },
     {
       "tag": "e1ce561e",
-      "uris": ["local:track:Injury%20Reserve%20-%20ttktv.mp3"]
+      "uris": ["local:track:Injury%20Reserve%20-%20Ttktv.m4a"]
     },
     {
       "tag": "b14e481c",
-      "uris": ["local:track:Cerrone%20-%20Supernature.mp3"]
+      "uris": ["local:track:Cerrone%20-%20Supernature.m4a"]
     },
     {
       "tag": "f118e61e",
-      "uris": ["local:track:Dire%20Stratis%20-%20Sultans%20Of%20Swing.mp3"]
+      "uris": ["local:track:Dire%20Straits%20-%20Sultans%20Of%20Swing.m4a"]
     },
     {
       "tag": "b1cb921c",
@@ -142,63 +142,63 @@
     },
     {
       "tag": "041b456a186581",
-      "uris": ["local:track:Zyad%206%20ans%20-%20Corona%20poison.mp3"]
+      "uris": ["local:track:Zyad%20-%20Corona%20poison.m4a"]
     },
     {
       "tag": "04fd456a186580",
-      "uris": ["local:track:Iggy%20Pop%20-%20The%20Passenger.mp3"]
+      "uris": ["local:track:Iggy%20Pop%20-%20The%20Passenger.m4a"]
     },
     {
       "tag": "04c2456a186580",
-      "uris": ["local:track:Madredeus%20-%20O%20Pastor.mp3"]
+      "uris": ["local:track:Madredeus%20-%20O%20pastor.m4a"]
     },
     {
       "tag": "04e0456a186580",
-      "uris": ["local:track:Henri%20Des%20-%20Le%20petit%20zinzin.mp3"]
+      "uris": ["local:track:'Henri%20Des%20-%20Le%20petit%20zinzin.m4a"]
     },
     {
       "tag": "04df456a186580",
       "uris": [
-        "local:track:France%20Gall%20-%20Laisse%20tomber%20les%20filles.mp3"
+        "local:track:France%20Gall%20-%20Laisse%20tomber%20les%20filles.m4a"
       ]
     },
     {
       "tag": "0447456a186580",
-      "uris": ["local:track:The%20Clash%20-%20The%20Magnificent%20Seven.mp3"]
+      "uris": ["local:track:The%20Clash%20-%20The%20Magnificent%20Seven.m4a"]
     },
     {
       "tag": "0448466a186580",
       "uris": [
-        "local:track:Vivaldi%20The%20Four%20Seasons%2C%20Summer%20-%203%2C%20Presto.mp3"
+        "local:track:Vivaldi%20The%20Four%20Seasons%2C%20Summer%20-%203%2C%20Presto.m4a"
       ]
     },
     {
       "tag": "0465456a186580",
-      "uris": ["local:track:The%20Chordettes%20-%20Mr%20Sandman.mp3"]
+      "uris": ["local:track:The%20Chordettes%20-%20Mr%20Sandman.m4a"]
     },
     {
       "tag": "0448456a186580",
-      "uris": ["local:track:Serge%20Gainsbourg%20-%20Initials%20BB.mp3"]
+      "uris": ["local:track:Serge%20Gainsbourg%20-%20Initials%20BB.m4a"]
     },
     {
       "tag": "0483456a186580",
       "uris": [
-        "local:track:Serge%20Gainsbourg%20-%20La%20chanson%20de%20Pre%CC%81vert%20%281962%29.mp3"
+        "local:track:Serge%20Gainsbourg%20-%20La%20chanson%20de%20Pre%CC%81vert.m4a"
       ]
     },
     {
       "tag": "04a2466a186580",
       "uris": [
-        "local:track:Grace%20Jones%20-%20I%20ve%20Seen%20That%20Face%20Before%20%2812%20Version%29.mp3"
+        "local:track:Grace%20Jones%20-%20I%20ve%20Seen%20That%20Face%20Before%20.m4a"
       ]
     },
     {
       "tag": "0467466a186580",
-      "uris": ["local:track:Wejdene%20-%20Anissa.mp3"]
+      "uris": ["local:track:Wejdene%20-%20Anissa.m4a"]
     },
     {
       "tag": "047e446a186580",
-      "uris": ["local:track:Wejdene%20-%20Coco.mp3"]
+      "uris": ["local:track:Wejdene%20-%20Coco.m4a"]
     },
 
     {
@@ -208,27 +208,27 @@
     {
       "tag": "04c1456a186580",
       "uris": [
-        "local:track:The%20White%20Stripes%20-%20Seven%20Nation%20Army.mp3"
+        "local:track:The%20White%20Stripes%20-%20Seven%20Nation%20Army.m4a"
       ]
     },
     {
       "tag": "0484456a186580",
       "uris": [
-        "local:track:Nick%20Cave%20and%20The%20Bad%20Seeds%20-%20Red%20Right%20Hand.mp3"
+        "local:track:Nick%20Cave%20%26%20The%20Bad%20Seeds%20-%20Red%20Right%20Hand.m4a"
       ]
     },
     {
       "tag": "04a2456a186580",
-      "uris": ["local:track:ROSALiA%20-%20MALAMENTE.mp3"]
+      "uris": ["local:track:ROSALiA%20-%20MALAMENTE.m4a"]
     },
     {
       "tag": "0466456a186580",
-      "uris": ["local:track:Moloko%20-%20The%20Time%20Is%20Now.mp3"]
+      "uris": ["local:track:Moloko%20-%20Time%20Is%20Now.m4a"]
     },
     {
       "tag": "0461446a186580",
       "uris": [
-        "local:track:Led%20Zeppelin%20-%2004%20Dazed%20And%20Confused.MP3"
+        "local:track:Led%20Zeppelin%20-%20Dazed%20and%20Confused.m4a"
       ]
     },
     {
@@ -252,31 +252,31 @@
     {
       "tag": "0449466a186580",
       "uris": [
-        "local:track:Vivaldi%20-%20Nisi%20Dominus%20Cum%20Dederit%20Andreas%20Scholl.mp3"
+        "local:track:Andreas%20Scholl%20-%20Vivaldi-%20Nisi%20Dominus%20Cum%20dederit.m4aa"
       ]
     },
     {
       "tag": "0466466a186580",
       "uris": [
-        "local:track:Prokofiev%20Romeo%20and%20Juliet%20No%2013%20Dance%20of%20the%20Knights.mp3"
+        "local:track:Boston%20Symphony%20Orchestra%20-%20Prokofiev-%20Romeo%20and%20Juliet%20-%20Dance%20of%20the%20Knights.m4a"
       ]
     },
     {
       "tag": "04fe456a186580",
       "uris": [
-        "local:track:Mendelssohn%20Violin%20Concerto%20in%20E%20minor.mp3"
+        "local:track:Mendelssohn%20Violin%20Concerto%20in%20E%20minor.m4a"
       ]
     },
     {
       "tag": "0439456a186581",
       "uris": [
-        "local:track:Massive%20Attack%20-%2006%20Unfinished%20Sympathy.mp3"
+        "local:track:Massive%20Attack%20-%20Unfinished%20Sympathy.m4a"
       ]
     },
     {
       "tag": "041c456a186581",
       "uris": [
-        "local:track:Les%20Rita%20Mitsouko%20-%20Marcia%20Bai%CC%88la.mp3"
+        "local:track:Les%20Rita%20Mitsouko%20-%20Marcia%20Ba%C3%AFla.m4a"
       ]
     },
     {
@@ -285,21 +285,21 @@
     },
     {
       "tag": "043a456a186581",
-      "uris": ["local:track:Jacques%20Brel%20-%2001%20Amsterdam.mp3"]
+      "uris": ["local:track:Jacques%20Brel%20-%20Amsterdam.m4a"]
     },
     {
       "tag": "0470446a186581",
-      "uris": ["local:track:David%20Bowie%20-%20Ashes%20To%20Ashes.mp3"]
+      "uris": ["local:track:David%20Bowie%20-%20Ashes%20to%20Ashes.m4a"]
     },
     {
       "tag": "0459456a186581",
       "uris": [
-        "local:track:The%20Doors%20-%2001%20Alabama%20Song.mp3"
+        "local:track:The%20Doors%20-%2001%20Alabama%20Song.m4a"
       ]
     },
     {
       "tag": "0452446a186581",
-      "uris": ["local:track:Little%20Simz%20-%20Venom.mp3"]
+      "uris": ["local:track:Little%20Simz%20-%20Venom.m4a"]
     },
     {
       "tag": "046f446a186581",
@@ -313,11 +313,11 @@
     },
     {
       "tag": "04c2466a186580",
-      "uris": ["local:track:Daft%20Punk%20-%20Make%20Love.mp3"]
+      "uris": ["local:track:Daft%20Punk%20-%20Make%20Love.m4a"]
     },
     {
       "tag": "0485466a186580",
-      "uris": ["local:track:Gringe%20-%20Qui%20dit%20mieux.mp3"]
+      "uris": ["local:track:Gringe%20-%20Qui%20dit%20mieux.m4a"]
     },
     {
       "tag": "04c1466a186580",
@@ -366,6 +366,18 @@
     {
       "tag": "04bb446a186580",
       "uris": ["local:track:Vaya%20con%20Dios%20-%20Just%20a%20Friend%20of%20Mine.mp3"]
+    },
+    {
+      "tag": "04b268aa9a1090",
+      "uris": ["local:track:Eminem%20-%20Lose%20Yourself.m4a"]
+    },
+    {
+      "tag": "04e068aa9a1090",
+      "uris": ["local:track:JUL%20-%20Bwo.m4a"]
+    },
+    {
+      "tag": "04c968aa9a1090",
+      "uris": ["local:track:JUL%20-%20La%20faille.m4a"]
     }
   ]
 }
